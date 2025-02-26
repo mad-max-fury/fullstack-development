@@ -1,0 +1,61 @@
+{
+  "name": "finance",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "A finance budget tracking application to help users manage expenses, track income, and gain insights into their financial health.",
+  "author": "Hola! I'm Ndubuisi Obinna Christopher 👋 \nI craft high-performing, beautiful websites that are conversion-focused, brand-accurate, and user-friendly. Highly experienced software developer, proficient in designing, developing user-friendly and visually appealing web applications, with a strong understanding of responsive design, cross-browser compatibility, and web standards. A problem solver at heart, able to efficiently self-manage during independent projects, as well as collaborate as part of a productive team. Constantly seeking new and innovative ways to enhance user experience.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "yarn run lint -- --fix",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "prepare": "husky && husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,mdx,css}": [
+      "eslint",
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.5",
+    "styled-components": "^6.1.15",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@types/eslint": "^9.6.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@types/styled-components": "^5.1.34",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.20.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-compat": "^6.0.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.22.0",
+    "vite": "^6.1.0",
+    "vite-plugin-svgr": "^4.3.0"
+  }
+}
