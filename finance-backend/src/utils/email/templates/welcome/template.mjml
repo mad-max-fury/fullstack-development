@@ -1,0 +1,140 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Br Cobane"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    />
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-raw>
+      <!-- Company Header -->
+    </mj-raw>
+    <mj-section background-size="cover" padding="0px">
+      <mj-column padding="0px">
+        <mj-image
+          padding="0px"
+          src="https://res.cloudinary.com/dieiaig78/image/upload/v1728330891/Top_1_xkmlwo.png"
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="10px">
+      <mj-column>
+        <mj-text
+          font-size="20px"
+          line-height="30px"
+          align="center"
+          letter-spacing="1px"
+          font-weight="bold"
+        >
+          Reset Password
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Greeting and body -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="17px"> Hi {name}, </mj-text>
+        <mj-text font-size="14px" line-height="30px">
+          Forgot your password? A request to reset your E-Homes password has
+          been made for
+          <span style="font-weight: bold; color: #647644"
+            >adekunle@gmail.com.</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text> </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-text
+          font-size="40px"
+          line-height="30px"
+          align="center"
+          letter-spacing="8px"
+        >
+          #{OTP}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="14px" line-height="30px">
+          Kindly enter this code within the Bundo password reset page. Please
+          keep this OTP confidential and do not share it with anyone. If you did
+          not initiate this process, you don't have to do anything.
+        </mj-text>
+        <mj-text font-size="14px" line-height="30px">
+          Thank you for choosing Bundo. We look forward to providing you with a
+          secure and seamless retail experience.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+
+    <mj-section padding-bottom="5px">
+      <mj-column>
+        <mj-divider
+          border-color="#5C5A57"
+          padding-top="5px"
+          border-width="0.5px"
+        ></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="10px">
+      <mj-column>
+        <mj-text
+          font-size="10px"
+          font-family="Nunito"
+          align="center"
+          line-height="10px"
+          letter-spacing="0.5px"
+          >This email was sent to
+          <span style="text-decoration: underline">#{email}</span> because you
+          are subscribed to us.
+        </mj-text>
+        <mj-text
+          font-size="10px"
+          font-family="Nunito"
+          align="center"
+          font-style="italic"
+          line-height="10px"
+          text-decoration="underline"
+          padding-bottom="0px"
+          letter-spacing="0.5px"
+          >update subscription preferences
+        </mj-text>
+        <mj-text
+          font-size="10px"
+          font-family="Nunito"
+          font-style="italic"
+          align="center"
+          line-height="10px"
+          text-decoration="underline"
+          padding-top="3px"
+          letter-spacing="0.5px"
+          >unsubscribe from this list
+        </mj-text>
+        <mj-text
+          font-size="10px"
+          font-family="Nunito"
+          align="center"
+          line-height="10px"
+          letter-spacing="2px"
+          >Lagos, Nigeria
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
